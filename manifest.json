@@ -1,13 +1,16 @@
 {
   "modId": "TSFMod",
-  "version": "1.15",
+  "version": "1.16",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.15/TSFMod.dll",
-  "sha256": "02bdeb00ad6a057013344a7069517bd0e2e82ded70f4c41fd0958b6823e95ef7",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.16/TSFMod.dll",
+  "sha256": "d9c86467251886c9e714852a568a3f46963df962492ac65935e195f0a91d4961",
   "notes": [
-    "Added English and German menu settings.",
-    "Added an individual collision toggle for each listed player.",
-    "Menu reload preserves active gameplay modes."
+    "Moved the per-player collision toggle into the selected-player panel.",
+    "Reduced collision-ignore refresh overhead and optimized tracked collider-pair lookup.",
+    "Blocked CarX controls while the TSF menu is open and while TSF keybinds are held; restored the prior control-block state.",
+    "Persisted in-game menu changes to settings.txt.",
+    "Rendered validated color tags in player names.",
+    "Made reconnect available for active multiplayer sessions."
   ],
-  "releaseSequence": "115"
+  "releaseSequence": "116"
 }
