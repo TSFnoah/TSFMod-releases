@@ -1,13 +1,12 @@
 {
   "modId": "TSFMod",
-  "version": "1.17",
+  "version": "1.18",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.17/TSFMod.dll",
-  "sha256": "7e7cfda7adca11181ea8e06b0ab82614e3c74b637f03c85d96b008203b509739",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.18/TSFMod.dll",
+  "sha256": "ab4ced1fca6fe1faf99892e80f4740a2f8568e141a15ff5d92d84c0be503aeef",
   "notes": [
-    "Fixed keyboard keybind activation for printable keys.",
-    "Kept the mouse cursor visible while the TSF menu or Fly Mode is active.",
-    "Rocket League pitch follows vertical input and gradually levels after release; LB/RB control roll."
+    "Removed the automatic TSF name suffix.",
+    "Name color presets now use CarX color markup."
   ],
-  "releaseSequence": "117"
+  "releaseSequence": "118"
 }
