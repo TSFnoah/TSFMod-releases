@@ -8,5 +8,6 @@
     "Added English and German menu settings.",
     "Added an individual collision toggle for each listed player.",
     "Menu reload preserves active gameplay modes."
-  ]
+  ],
+  "releaseSequence": "115"
 }
