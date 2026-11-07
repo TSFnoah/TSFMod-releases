@@ -1,16 +1,13 @@
 {
   "modId": "TSFMod",
-  "version": "1.16",
+  "version": "1.17",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.16/TSFMod.dll",
-  "sha256": "d9c86467251886c9e714852a568a3f46963df962492ac65935e195f0a91d4961",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.17/TSFMod.dll",
+  "sha256": "7e7cfda7adca11181ea8e06b0ab82614e3c74b637f03c85d96b008203b509739",
   "notes": [
-    "Moved the per-player collision toggle into the selected-player panel.",
-    "Reduced collision-ignore refresh overhead and optimized tracked collider-pair lookup.",
-    "Blocked CarX controls while the TSF menu is open and while TSF keybinds are held; restored the prior control-block state.",
-    "Persisted in-game menu changes to settings.txt.",
-    "Rendered validated color tags in player names.",
-    "Made reconnect available for active multiplayer sessions."
+    "Fixed keyboard keybind activation for printable keys.",
+    "Kept the mouse cursor visible while the TSF menu or Fly Mode is active.",
+    "Rocket League pitch follows vertical input and gradually levels after release; LB/RB control roll."
   ],
-  "releaseSequence": "116"
+  "releaseSequence": "117"
 }
