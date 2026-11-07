@@ -1,0 +1,12 @@
+{
+  "modId": "TSFMod",
+  "version": "1.15",
+  "fileName": "TSFMod.dll",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.15/TSFMod.dll",
+  "sha256": "02bdeb00ad6a057013344a7069517bd0e2e82ded70f4c41fd0958b6823e95ef7",
+  "notes": [
+    "Added English and German menu settings.",
+    "Added an individual collision toggle for each listed player.",
+    "Menu reload preserves active gameplay modes."
+  ]
+}
