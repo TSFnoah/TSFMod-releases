@@ -1,12 +1,11 @@
 {
   "modId": "TSFMod",
-  "version": "1.18",
+  "version": "1.20",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.18/TSFMod.dll",
-  "sha256": "ab4ced1fca6fe1faf99892e80f4740a2f8568e141a15ff5d92d84c0be503aeef",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.20/TSFMod.dll",
+  "sha256": "5ee167591ae6e81dc0a9839dedacbea0329a8be63368920cca78cfb9052b3d97",
   "notes": [
-    "Removed the automatic TSF name suffix.",
-    "Name color presets now use CarX color markup."
+    "Movable track objects are now nudged away from the car instead of being pushed along with it."
   ],
-  "releaseSequence": "118"
+  "releaseSequence": "120"
 }
