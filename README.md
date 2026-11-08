@@ -1,6 +1,8 @@
 # TSF Mod for CarX Drift Racing Online
 
-This repository hosts only the TSF Mod update manifest and mod DLL for **CarX Drift Racing Online**. It does **not** contain or distribute the TSF Mod Loader.
+**Important:** The TSF Mod DLL does not work by itself. It requires the separate **TSF Mod Loader** for CarX Drift Racing Online. This repository does not contain or distribute the loader.
+
+This repository hosts only the TSF Mod update manifest and mod DLL for **CarX Drift Racing Online**.
 
 The updater reads `manifest.json` and verifies the detached `manifest.json.sig` signature before trusting update metadata. Release binaries are published as GitHub Release assets. This repository does not contain the loader; source code remains in the private `TSFMod` repository.
 

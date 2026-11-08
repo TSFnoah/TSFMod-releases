@@ -1,11 +1,13 @@
 {
   "modId": "TSFMod",
-  "version": "1.20",
+  "version": "1.22",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.20/TSFMod.dll",
-  "sha256": "5ee167591ae6e81dc0a9839dedacbea0329a8be63368920cca78cfb9052b3d97",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.22/TSFMod.dll",
+  "sha256": "8be8960c57143039410af5e169a002821565a36e28059aa2ade5e356efde61fa",
   "notes": [
-    "Movable track objects are now nudged away from the car instead of being pushed along with it."
+    "Discord Rich Presence now displays CarX with TSF Mod.",
+    "Updated the TSF Mod version to 1.22.",
+    "Requires the separate TSF Mod Loader; this release repository does not include the loader."
   ],
-  "releaseSequence": "120"
+  "releaseSequence": "122"
 }
