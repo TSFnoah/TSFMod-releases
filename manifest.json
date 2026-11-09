@@ -1,13 +1,14 @@
 {
   "modId": "TSFMod",
-  "version": "1.22",
+  "version": "1.25",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.22/TSFMod.dll",
-  "sha256": "8be8960c57143039410af5e169a002821565a36e28059aa2ade5e356efde61fa",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.25/TSFMod.dll",
+  "sha256": "0913c9577138ef002ba85aa30bc408b4752509c5138a513b4218c7ab83124080",
   "notes": [
-    "Discord Rich Presence now displays CarX with TSF Mod.",
-    "Updated the TSF Mod version to 1.22.",
-    "Requires the separate TSF Mod Loader; this release repository does not include the loader."
+    "1. Settings are written atomically to reduce the risk of a partial settings.ini file.",
+    "2. Kino Discord status override is optional and disabled by default.",
+    "3. Publishing TSF presence to the game server is optional and disabled by default.",
+    "4. Requires the separate TSF Mod Loader; this repository does not include the loader."
   ],
-  "releaseSequence": "122"
+  "releaseSequence": "125"
 }
