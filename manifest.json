@@ -1,14 +1,18 @@
 {
   "modId": "TSFMod",
-  "version": "1.25",
+  "version": "1.28",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.25/TSFMod.dll",
-  "sha256": "0913c9577138ef002ba85aa30bc408b4752509c5138a513b4218c7ab83124080",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.28/TSFMod.dll",
+  "sha256": "f5206a8d9c855676504df31e1a4f93ea5725ff04c370d3ba7bfca2dbb0fbc09f",
   "notes": [
-    "1. Settings are written atomically to reduce the risk of a partial settings.ini file.",
-    "2. Kino Discord status override is optional and disabled by default.",
-    "3. Publishing TSF presence to the game server is optional and disabled by default.",
-    "4. Requires the separate TSF Mod Loader; this repository does not include the loader."
+    "1. Rocket League handling: reduced wobble, kept the car level without input, and expanded nose-up pitch to 60 degrees while retaining 30 degrees nose-down.",
+    "2. Discord Rich Presence refreshes every 6 seconds with a 5-second minimum interval and retries after connection errors.",
+    "3. Settings write atomically; settings.ini applies edits live, and the Force direction slider is saved.",
+    "4. Per-player Disable Collision settings persist by player ID and reapply when that player returns.",
+    "5. Added No pushback from other players: cars still touch, but cannot push or spin the local car.",
+    "6. Added optional tsfmod room-marker publishing through publishPresence.",
+    "7. The Kino Discord override is controlled by kinoDiscordOverride; this release does not include Kino or KSL files.",
+    "8. Requires the separate TSF Mod Loader for CarX Drift Racing Online. The loader is not included."
   ],
-  "releaseSequence": "125"
+  "releaseSequence": "128"
 }
