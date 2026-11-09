@@ -1,5 +1,9 @@
 # TSF Mod for CarX Drift Racing Online
 
+## Credits
+
+Created by TSF Noah, with Claude (Anthropic) and Codex (OpenAI) credited as AI co-creators and development assistants.
+
 **Important:** The TSF Mod DLL does not work by itself. It requires the separate **TSF Mod Loader** for CarX Drift Racing Online. This repository does not contain or distribute the loader.
 
 This repository hosts only the TSF Mod update manifest and mod DLL for **CarX Drift Racing Online**.
