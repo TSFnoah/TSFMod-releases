@@ -1,18 +1,24 @@
 {
   "modId": "TSFMod",
-  "version": "1.28",
+  "version": "1.30",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.28/TSFMod.dll",
-  "sha256": "f5206a8d9c855676504df31e1a4f93ea5725ff04c370d3ba7bfca2dbb0fbc09f",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.30/TSFMod.dll",
+  "sha256": "df31c01acae4c43dd09dc33f6864d95de41606978e501e296106c2ec9b0584e5",
   "notes": [
-    "1. Rocket League handling: reduced wobble, kept the car level without input, and expanded nose-up pitch to 60 degrees while retaining 30 degrees nose-down.",
-    "2. Discord Rich Presence refreshes every 6 seconds with a 5-second minimum interval and retries after connection errors.",
-    "3. Settings write atomically; settings.ini applies edits live, and the Force direction slider is saved.",
-    "4. Per-player Disable Collision settings persist by player ID and reapply when that player returns.",
-    "5. Added No pushback from other players: cars still touch, but cannot push or spin the local car.",
-    "6. Added optional tsfmod room-marker publishing through publishPresence.",
-    "7. The Kino Discord override is controlled by kinoDiscordOverride; this release does not include Kino or KSL files.",
-    "8. Requires the separate TSF Mod Loader for CarX Drift Racing Online. The loader is not included."
+    "1. Removed Auto-Chaser and Auto-Leader, including route recording, route selection and the End stop key.",
+    "2. Removed Show Own Hitbox.",
+    "3. Rocket League: the car can remain upside down; pitch controls are mirrored when inverted.",
+    "4. Player session information distinguishes players already present on arrival from players who join later.",
+    "5. Disable Collision now saves each selected player in collisionOffPlayers.",
+    "6. Removing a saved collision exception restores collisions; failed restoration is retried.",
+    "7. settings.ini reload retries after read failures and reports success only after a successful read.",
+    "8. Failed settings saves retry after 5 seconds. Removed the unsafe overwrite fallback; comments and unknown keys are preserved.",
+    "9. Input blocking follows a replaced PlayerCarControl instance after vehicle or scene changes.",
+    "10. Discord message reads time out after 5 seconds and reconnect instead of waiting indefinitely.",
+    "11. Reloading the menu releases the previous menu textures.",
+    "12. Heavy Drive skips distant prop checks beyond 30 metres, removes destroyed entries and performs a full rescan every 10 scans.",
+    "13. Added and expanded checks for names, gradients, settings persistence and player join tracking. All 24 automated checks passed before publication.",
+    "14. In-game testing confirmed by the user. Requires the separate TSF Mod Loader; loader not included."
   ],
-  "releaseSequence": "128"
+  "releaseSequence": "130"
 }
