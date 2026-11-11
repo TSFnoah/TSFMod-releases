@@ -1,24 +1,18 @@
 {
   "modId": "TSFMod",
-  "version": "1.30",
+  "version": "1.31",
   "fileName": "TSFMod.dll",
-  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.30/TSFMod.dll",
-  "sha256": "df31c01acae4c43dd09dc33f6864d95de41606978e501e296106c2ec9b0584e5",
+  "downloadUrl": "https://github.com/TSFnoah/TSFMod-releases/releases/download/v1.31/TSFMod.dll",
+  "sha256": "58b8506517d446429d9896f0f7da81abc7328d16d37d7e8d907ce03c5e555e69",
   "notes": [
-    "1. Removed Auto-Chaser and Auto-Leader, including route recording, route selection and the End stop key.",
-    "2. Removed Show Own Hitbox.",
-    "3. Rocket League: the car can remain upside down; pitch controls are mirrored when inverted.",
-    "4. Player session information distinguishes players already present on arrival from players who join later.",
-    "5. Disable Collision now saves each selected player in collisionOffPlayers.",
-    "6. Removing a saved collision exception restores collisions; failed restoration is retried.",
-    "7. settings.ini reload retries after read failures and reports success only after a successful read.",
-    "8. Failed settings saves retry after 5 seconds. Removed the unsafe overwrite fallback; comments and unknown keys are preserved.",
-    "9. Input blocking follows a replaced PlayerCarControl instance after vehicle or scene changes.",
-    "10. Discord message reads time out after 5 seconds and reconnect instead of waiting indefinitely.",
-    "11. Reloading the menu releases the previous menu textures.",
-    "12. Heavy Drive skips distant prop checks beyond 30 metres, removes destroyed entries and performs a full rescan every 10 scans.",
-    "13. Added and expanded checks for names, gradients, settings persistence and player join tracking. All 24 automated checks passed before publication.",
-    "14. In-game testing confirmed by the user. Requires the separate TSF Mod Loader; loader not included."
+    "1. Improved controller and wheel input polling with cached controls and compiled readers.",
+    "2. Rocket League jump detection works when the car is on its roof.",
+    "3. TSF name badges refresh when a player changes or respawns a car.",
+    "4. Reduced repeated work in controller polling, player/room reflection, status and FPS labels, and Discord state updates.",
+    "5. Menu remains reachable after resolution changes; key names are consistent across menu pages.",
+    "6. Updated settings reload behavior and controller jump instructions; removed unreachable settings-profile and unused code.",
+    "7. All 31 automated checks passed. No in-game test was conducted for v1.31.",
+    "8. Requires the separate TSF Mod Loader; the loader is not included."
   ],
-  "releaseSequence": "130"
+  "releaseSequence": "131"
 }
